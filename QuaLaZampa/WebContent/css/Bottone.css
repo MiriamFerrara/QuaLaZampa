@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+* {
+  box-sizing: border-box; 
+}
+
+.container {
+  	margin-left: auto;
+ 	margin-right: auto;
+  	padding: 16px;
+  	background-color: #ffffff;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 10px;
+  background-color: #f07818;
+   overflow: hidden;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.icone{
+	margin-top:20px;
+	margin-right:15px;
+	float:right;
+	width:40px;
+	height:40px;
+}
+
+/* Bottoni Amministratore */
+  .button {
+  background-color: #1e90ff;
+  color: black;
+  font-weight:bold;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.5s;
+  height:100px;
+  width: 300px;
+}
+.small {
+  background-color: #78C0A8;
+  color: black;
+  font-weight:bold;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  margin: 2px 2px;
+  transition-duration: 0.5s;
+  height:60px;
+  width: 300px;
+}
+
+.a:link, .a:visited {
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a:hover, .a:active {
+  background-color: none;
+}
+
+table { 
+	margin-left:10px;
+	margin-right:10px;
+  border-spacing: 0;
+  width: 100%;
+  	
+}
+
+th, td {
+  text-align: center;
+   border: 1px solid white;	
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+table.f {
+	table-layout: fixed; 
+}
